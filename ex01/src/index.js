@@ -2,9 +2,10 @@ function main(numOne, numTwo){
     
     var quotient;
     if(numTwo ===0){
-        quoitent = 'Divide by 0! Cannot divide by zero!';
+        String.valueOf(quoitent = 'Divide by 0! Cannot divide by zero!');
     } else {
-quoitent=numOne/numTwo
+    
+    var quotient = numOne / numTwo
     }
     return quotient;
 }
